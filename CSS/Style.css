@@ -1,0 +1,131 @@
+﻿body {
+	margin:0;
+	padding:0;
+	background-image:url(file:///C|/Users/balogun/Documents/Web%20development/Faith%20Academy%20Goshen/Image/bg.JPG);
+}
+#Holder {
+	width:980px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0;
+	margin-top:0;
+	background-color:;
+}
+/* Header Start*/
+.Header {
+	width:auto;
+	height:auto;
+	background-color:red;
+	padding-top:0;
+}
+.HeaderContent {
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+	background:green;
+	color:white;
+}
+.HeaderContent a img {
+	width:auto;
+	height:150px;
+	margin:auto;
+	display:block;
+	float:left;
+	bottom:20px;
+}
+.Headertext {
+	text-align:center;
+	display:block;
+	
+}	
+#Navbar {
+	height:50px;
+	background-color:rgb(13, 13, 13);
+	width:auto;
+}
+
+nav ul {
+	margin:0;
+	padding:0;
+}
+nav ul li {
+	list-style-type:none;
+	float:left;
+	display:block;
+	width:140px;
+	height:60px;
+	text-align:center;
+	line-height:55px;
+	font-size:17px;
+}
+nav ul li a {
+	text-decoration:none;
+	color:white;
+}
+nav ul li:hover {
+	background-color:rgb(200, 200, 200);
+}
+nav ul li:hover a {
+	display:block;
+	color:#000;
+}/*Header End*/
+
+/*Content*/
+#Content {
+	height:auto;
+	clear:both;
+	overflow:auto;
+	width:auto;
+}
+
+#ContentRight {
+	width:670px;
+	float:right;
+	font-size:20px;
+}
+
+.content {
+	padding: 0 0 0 110px; /* 75px being the width of the thumbnail + how much space you want to put between it and your text */
+	position: relative; /* So the thumbnail is relative to this */
+}
+
+	.content img {
+		left: 0;
+		position: absolute;
+		top: 0;
+	}
+
+#ContentLeft {
+	width:280px;
+	float:left;
+	padding-right:11px;
+	padding-left:11px;
+	font-size: 20px;
+}
+/*Content End*/
+
+/*Footer*/
+footer {
+		
+}
+.Copyright p {
+	margin:0;
+	padding:0;
+	line-height:60px;
+    color:blue;
+	text-align:right;
+}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+float:right;
+}
+
+h1 {
+	font-size:18px;
+}
